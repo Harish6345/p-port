@@ -7,10 +7,10 @@ const Contact = () => {
       <div className="text-center mb-10">
         <h2 className="text-xl uppercase text-gray-500 mb-2">Connect with me</h2>
         <h1 className="text-4xl font-bold mb-4">Get in touch</h1>
-        <p className="text-lg text-gray-600">
-          I'd love to hear from you! If you have any questions, comments, or
-          feedback, please use the form below.
-        </p>
+       <p className="text-lg text-gray-600">
+  I&#39;d love to hear from you! If you have any questions, comments, or feedback, please use the form below.
+</p>
+
       </div>
       <form className="max-w-4xl mx-auto bg-white p-8 shadow-md rounded-md">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
