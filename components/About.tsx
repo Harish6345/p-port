@@ -3,14 +3,14 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import { infoList, toolsData } from "@/assets/assets";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import gsap from "gsap";
+import gsap, { GSAPTweenVars } from "gsap";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
   useEffect(() => {
-    // Type annotations for parameters are not needed anymore
-    const animateSection = (selector: string, fromVars: any, toVars: any): void => {
+    // Type annotations for parameters are updated to use GSAPTweenVars instead of any
+    const animateSection = (selector: string, fromVars: GSAPTweenVars, toVars: GSAPTweenVars): void => {
       gsap.fromTo(selector, fromVars, {
         ...toVars,
         scrollTrigger: {
