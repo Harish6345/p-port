@@ -27,7 +27,7 @@ const Contact = () => {
         </div>
         <textarea
           placeholder="Enter your message"
-          rows="5"
+          rows={5}
           className="w-full p-4 border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500 mb-6"
         ></textarea>
         <div className="flex justify-center">
