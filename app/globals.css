@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Typewriter Effect with Infinite Loop */
+.typewriter {
+/* Monospace font for typewriter effect */
+   /* Adjust the font size */
+  color: #333; /* Text color */
+  display: inline-block; /* Keep text inline */
+  overflow: hidden; /* Hide the text during typing */
+  white-space: nowrap; /* Prevent wrapping */
+  border-right: 3px solid #333; /* Cursor effect */
+  animation: typing 8s steps(28) infinite, blink 0.75s step-end infinite; /* Typing and cursor blink */
+}
+
+@keyframes typing {
+  0% {
+    width: 0; /* Start with no visible text */
+  }
+  50% {
+    width: 100%; /* Reveal the entire text halfway through */
+  }
+  100% {
+    width: 0; /* Hide the text at the end */
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent; /* Hide cursor halfway for blinking */
+  }
+}
