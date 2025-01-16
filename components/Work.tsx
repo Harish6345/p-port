@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { workData } from "@/assets/assets";
 import { FaLocationArrow } from "react-icons/fa";
-
+import Image from "next/image";
 gsap.registerPlugin(ScrollTrigger);
 
 const Work = () => {
