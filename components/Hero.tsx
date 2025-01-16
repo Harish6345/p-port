@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 
 
 
-const lazy = () => {
+const Lazy = () => {
   useEffect(() => {
     gsap.fromTo(
       ".lazy",
@@ -52,4 +52,4 @@ const lazy = () => {
   );
 };
 
-export default lazy;
+export default Lazy;
