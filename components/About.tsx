@@ -75,8 +75,8 @@ const About = () => {
               </div>
             ))}
           </div>
-          <h1 className="mt-2 hero">Tools I use</h1>
-          <div className="flex dog items-center gap-4 mt-4">
+          <h1 className="mt-2 hero hidden md:block">Tools I use</h1>
+          <div className="md:flex dog items-center gap-4 mt-4 hidden">
             {toolsData.map((item, index) => (
               <div
                 key={index}
