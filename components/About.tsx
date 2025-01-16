@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect} from "react";
 import Image from "next/image";
 import { infoList, toolsData } from "@/assets/assets";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
