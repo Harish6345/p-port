@@ -41,11 +41,13 @@ const Work = () => {
             key={item}
             className="work-card relative bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
           >
-            <img
-              src={work.bgImage}
-              alt={work.title}
-              className="w-full h-48 object-cover"
-            />
+            <Image
+      src={work.bgImage}
+      alt={work.title}
+      width={400} // Adjust width
+      height={192} // Adjust height
+      className="w-full h-48 object-cover"
+    />
             <div className="p-4">
               <h3 className="text-lg font-semibold">{work.title}</h3>
               <p className="text-gray-500">{work.description}</p>
