@@ -29,7 +29,7 @@ const About = () => {
   }, []);
 
   return (
-    <div id="about" className="h-screen w-full py-10">
+    <div id="about" className="h-screen w-full pb-30 pt-10 sm:py-10">
       <div className="text-container flex justify-center w-full hero">
         <div className="flex flex-col items-center font-poppins">
           <h1 className="text-2xl">Introduction</h1>
